@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recherche d'adresse</title>
+</head>
+<body>
+  <h1>Recherche d'adresse</h1>
+  <form method="post">
+    <label for="code_postal">Code postal:</label>
+    <input id="code_postal" name="code_postal" required />
+    <button type="submit">Chercher</button>
+  </form>
+
+  {% if data %}
+    <h2>Résultat brut</h2>
+    <pre>{{ data | tojson(indent=2) }}</pre>
+  {% endif %}
+</body>
+</html>
