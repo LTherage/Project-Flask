@@ -56,7 +56,7 @@
 
 ## 💫 Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Ma première utilisation de Flask </code>
 
 ---
 
